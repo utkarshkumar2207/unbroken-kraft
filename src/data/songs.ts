@@ -29,7 +29,7 @@ export const SONGS_CATALOG: Song[] = [
     hasMasterAudio: true,
     audioFormat: "Lossless Master WAV (24-bit / 48kHz)",
     fileSize: "61.2 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Part.Time.Life.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-part-time-life.wav",
     notes: "A reflection on the balance between daily necessity and creative devotion. Guitars layered over driving pulse.",
     year: "2026",
     lyrics: `I look around
@@ -113,7 +113,7 @@ Everything is forced`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "209.6 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Never.Going.Home.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-never-going-home.wav",
     notes: "Driving alternative rock exploration of transitions, forward momentum, and irrevocable choices.",
     year: "2026",
     lyrics: `I fight again just to let you win
@@ -179,7 +179,7 @@ I feel like a freak`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "225.8 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Falling.Down.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-falling-down.wav",
     notes: "Raw guitars, contemplative vocal textures, and honest confrontation with vulnerability.",
     year: "2026",
     lyrics: `Yeah
@@ -271,7 +271,7 @@ And I’m falling down`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "243.3 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Fight.the.System.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-fight-the-system.wav",
     notes: "Energetic rebellion against corporate homogeneity and formulaic expectations.",
     year: "2026",
     lyrics: `Run for your life I’m coming back now
@@ -370,7 +370,7 @@ The system`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "229.1 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Won.t.Let.Go.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-wont-let-go.wav",
     notes: "A steady, enduring anthem of creative perseverance through quiet solitude.",
     year: "2026",
     lyrics: `I’m not fine
@@ -450,7 +450,7 @@ I won't give up`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "238.5 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Leave.Me.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-leave-me.wav",
     notes: "Sparse, intimate sonic atmosphere exploring the boundary between isolation and sanctuary.",
     year: "2026",
     lyrics: `Leave me I can’t be with you
@@ -504,7 +504,7 @@ Now`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "30.3 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Love.Me.No.More.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-love-me-no-more.wav",
     notes: "Melodic tension, melancholic guitars, and an honest reckoning with detachment and fading bonds.",
     year: "2026",
     lyrics: `I do what I wanna do 
@@ -583,7 +583,7 @@ Made me selfish down the boot with no ends`
     hasMasterAudio: true,
     audioFormat: "WAV Master (Lossless)",
     fileSize: "32.0 MB",
-    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/UNBROKEN.KRAFT.-.Anthem.wav",
+    downloadUrl: "https://github.com/utkarshkumar2207/unbroken-kraft/releases/download/v1.0.0/unbroken-kraft-anthem.wav",
     notes: "A powerful, defiant crescendo of distorted guitars, driving percussion, and collective resilience.",
     year: "2026",
     lyrics: `You stick to your phone but I'm bigger than tech

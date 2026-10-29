@@ -1,9 +1,21 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { AudioPlayerProvider, useAudioPlayer } from './context/AudioPlayerContext';
 import { Navigation } from './components/Navigation';
 import { QuietPlayerBar } from './components/QuietPlayerBar';
 import { HomeView, AboutView, MusicView, ShowsView, UpdatesView, UpdateDetailView, SongDetailView } from './views/Views';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    document.documentElement.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+    document.body.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+  }, [pathname]);
+
+  return null;
+}
 
 function FooterQuote() {
   const { playlist, playSong, isPlaying, currentIndex } = useAudioPlayer();
@@ -179,6 +191,7 @@ export function App() {
   return (
     <AudioPlayerProvider>
       <Router>
+        <ScrollToTop />
         <AppContent />
       </Router>
     </AudioPlayerProvider>

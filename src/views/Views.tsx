@@ -90,10 +90,10 @@ export const HomeView: React.FC = () => {
                 }
               }}
             >
-              {/* Floating Custom Pill Cursor (Desktop) */}
+              {/* Floating Custom Pill Cursor (Desktop Mouse Pointer Only) */}
               {isHeroHovered && (
                 <div
-                  className="hero-listen-cursor-pill"
+                  className="hero-listen-cursor-pill desktop-hover-pill-cursor"
                   style={{
                     position: 'absolute',
                     left: cursorPos.x + 16,

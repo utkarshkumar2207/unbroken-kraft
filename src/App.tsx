@@ -61,9 +61,10 @@ function FooterQuote() {
         }
       }}
     >
-      {/* Floating Custom Pill Cursor */}
+      {/* Floating Custom Pill Cursor (Desktop Mouse Pointer Only) */}
       {isHovered && (
         <div
+          className="desktop-hover-pill-cursor"
           style={{
             position: 'absolute',
             left: cursorPos.x + 16,

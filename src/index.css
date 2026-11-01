@@ -2481,6 +2481,43 @@ input[type="range"] {
   display: none;
 }
 
+@media (max-width: 1024px) {
+  .hero-mobile-listen-btn-wrap {
+    display: flex !important;
+    align-items: center;
+    margin-top: 18px !important;
+  }
+
+  .hero-mobile-listen-btn {
+    background: #FFFFFF !important;
+    color: #060707 !important;
+    border: none !important;
+    padding: 11px 24px !important;
+    border-radius: 9999px !important;
+    font-family: var(--font-sans) !important;
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.8px !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45) !important;
+    transition: transform 0.15s ease, background-color 0.15s ease !important;
+  }
+
+  .hero-mobile-listen-btn:active {
+    transform: scale(0.97) !important;
+    background: #E8E8E6 !important;
+  }
+
+  .hero-mobile-listen-btn .hero-btn-icon {
+    font-size: 11px !important;
+    display: inline-flex !important;
+    align-items: center !important;
+  }
+}
+
 @media (max-width: 768px) {
   .home-hero-bg-img {
     object-position: 78% bottom !important;
@@ -2640,7 +2677,7 @@ input[type="range"] {
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .footer-quote-mobile-btn-wrap {
     display: flex !important;
     margin-top: 16px;
@@ -2668,5 +2705,23 @@ input[type="range"] {
   .footer-quote-mobile-btn:active {
     transform: scale(0.97);
     background: #252525;
+  }
+}
+
+
+/* ========================================================================== */
+/* Desktop-Only Hover Pill Cursor                                             */
+/* Strictly hidden on touchscreen devices, tablets, and mobile screens        */
+/* ========================================================================== */
+.desktop-hover-pill-cursor {
+  display: flex;
+}
+
+@media (hover: none), (pointer: coarse), (max-width: 1024px) {
+  .desktop-hover-pill-cursor {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    pointer-events: none !important;
   }
 }
